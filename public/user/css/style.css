@@ -1,0 +1,384 @@
+#top_bar{
+	background: #ce8602;
+}
+
+#orange1{
+	box-shadow: none;
+	line-height: 35px;
+	height: 35px;
+	border-top: 1px solid white; 
+	padding: 0px 15%;
+}
+
+#mobile_up_body{
+	padding:10px;
+	background: rgba(0,0,0,0.05);
+}
+
+#electronic_menu,#men_fashion_menu,#women_feshion_menu,#home_furniture_menu,#sports_stationary_menu,#daily_needs_menu{
+	width: 90% !important;
+}
+
+/*---------homepage------------*/
+
+#brand_logo{
+	font-size: 17px;
+	font-weight: bold;
+	color: #fff !important;
+}
+
+#westminster{
+	font-weight: bold;
+	color:  #A82751;
+	font-size: 20px;
+	text-align: center;
+}
+
+#for_small{
+	margin-top:-50px;
+	background:#b7b0a380;
+	height: 795px;
+}
+
+#for_small h3{
+	padding:300px 0%;
+	font-size: 100%;
+	text-align:center;
+}
+
+@media (min-width: 600px)
+{
+	#westminster,#date{
+	display: none;
+	}
+}
+
+#westminster_fav{
+	font-weight: bold;
+	color:  #A82751;
+	font-size: 25px;
+	text-align: center;
+}
+
+#west_image{
+	width: 100%;
+	height: 200px;
+}
+
+#west_image_part{
+	width: 100%;
+	height: 170px;
+	margin-left: 1.5%
+	margin-right: 1.5%
+}
+
+#west_image1{
+	width: 100%;
+	height: 200px;
+}
+
+#date{
+	font-weight: bold;
+	color:  #A82751;
+	font-size: 20px;
+	text-align: center;
+	opacity: 0.5;
+}
+
+#plus_icon{
+	font-weight: lighter;
+	margin-top: -10px;
+	background:#424242;
+	color:#fff;
+	padding:10px;
+	border-radius: 100%;
+	position: fixed;
+	top:95%;
+	left:90%;
+}
+
+#favourite_modal{
+	height: 300px;
+}
+
+#submit_btn{
+	margin-left:30%;
+	margin-right:30%;
+	margin-top:5%;
+}
+
+#ticket_para,#point_para{
+	 margin-top: 80px;
+	 position: absolute !important;
+	 color:white;
+	 text-align: center;
+	 width: 100%;
+	 font-size: 17px;
+}
+
+#ticket_para span,#point_para span{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#point_para{
+	background: #000;
+	width: 99%;
+}
+
+#westminster_ticket{
+	color: #A82751;
+}
+
+#price{
+	color: #fff;
+	position: absolute;
+	margin-top: 140px;
+	margin-left: 75%;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#ticket_opt h4{
+	color: #A82751;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+#ticket_opt span{
+	color: #A82751;
+	font-size: 10px;
+	margin-left: 1px;
+}
+
+#ticket_opt p{
+	font-size: 0px;
+	font-weight: bold;
+}
+
+#event_one{
+	color: #A82751;
+	font-weight: bold;
+}
+
+table{
+	margin-top: 20px;
+}
+
+table tr{
+	border:0px;
+
+}
+
+table tr td{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#img_pay{
+	width: 100%;
+	border:1px solid gray;
+	margin-top: 20px;
+}
+
+
+
+#input label{
+	font-weight: bold;
+	color: #A82751;
+	font-size: 12px;
+
+}
+
+#input input{
+	border:1px solid gray;
+	border-bottom: :1px solid gray;
+	height: 25px;
+	margin-top: 13px;
+	width: 95%;
+}
+
+#button{
+	width: 80%;
+	background :#A82751;
+	margin: 30px 7%;
+	border-radius: 55px;
+}
+
+#poi_h{
+	color:#A82751;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	margin-left:7%;
+	margin-right:7%;
+	margin-bottom: 20px;
+}
+
+#scenic{
+	color:#A82751;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#abbey{
+	position: absolute;
+	color: #fff;
+	margin-top: 45%;
+	background:#000;
+	padding-left: 2%;
+	width: 50%;
+	
+	font-weight: bold;
+}
+
+#select_par option{
+	width: 10%;
+}
+
+#select_filter{
+	width: 40%;
+	margin-left: 60%;
+	margin-bottom: -0px;
+}
+
+#select_filter select{
+	border:1px solid silver;
+	margin-bottom:10px;
+	height: 30px;
+	color: silver;
+}
+
+#select_filter select option{
+	color: silver;
+}
+
+#social_btn{
+	width: 80%;
+	height: 40px;
+}
+
+#social_btn1{
+	width: 90%;
+	height: 70px;
+}
+
+/*---------Registration page----------*/
+
+.input-field{
+	width: 80%;
+	margin-left: 10%;
+}
+
+#reg_btn{
+	margin-left: 17%;
+}
+
+
+
+
+
+#daily_needs_menu,#home_furniture_menu,#sports_stationary_menu,#men_fashion_menu,#women_feshion_menu,#electronic_menu{
+	left: 1px !important;
+}
+
+#electronic_menu h6,#men_fashion_menu h6,#women_feshion_menu h6,#home_furniture_menu h6,#sports_stationary_menu h6,#daily_needs_menu h6{
+	color: orange;
+}
+
+#set_ele_menu a,#men_fashion_menu a,#women_feshion_menu a,#home_furniture_menu a,#sports_stationary_menu a,#daily_needs_menu a{
+	line-height: 20px;
+	color: silver;
+	padding:0px;
+}
+
+#set_ele_menu a:hover,#men_fashion_menu a:hover,#women_feshion_menu a:hover,#home_furniture_menu a:hover,#sports_stationary_menu a:hover,#daily_needs_menu a:hover{
+	background: white;
+	color: #000;
+}
+
+#set_footer_link li a{
+	color: #fff;
+	line-height: 35px;
+}
+
+#set_footer_link li a:hover{
+	color: #000;
+	text-decoration: underline;
+}
+
+#btn_processor_info,#btn_connectivity_info,#btn_listing_info,#upload{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+ 
+#set_social_icon li{
+	display: inline;
+}
+
+#set_social_icon li a{
+	color: #fff;
+	padding: 10px 15px;
+	
+}
+.collapsible-body{
+	padding: 0 !important;
+}
+
+.collapsible-header{
+	color: silver;
+}
+
+#set_links{
+	border-left: 3px solid orange;
+}
+
+#set_links li a{
+	color: silver;
+	padding-left: 18px;
+	font-size: 16px;
+	line-height: 35px;
+	display: block;
+}
+
+#set_search{
+	width: 39%;
+	border:1px solid #fff;
+	box-shadow: none;
+	margin-left: 18%;
+	height: 42px;
+	line-height: 42px;
+	background: #fff;
+	padding-left: 5px;
+	border-radius: 3px;
+}
+
+#set_search_btn{
+	line-height: 46px;
+	background : #ce8602;
+	height: 44px;
+	width: 10%;
+	box-shadow: none;
+	margin-top: -5px;
+	color: #000;
+	margin-left: -8px;
+	border-radius: 3px;
+}
+
+form{
+	display: inline;
+}
+
+#set_mobile_search{
+	border : 1px solid #fff;
+	padding-left: 5px;
+	background: #fff;
+	color: #000;
+	border-radius: 3px;
+	box-shadow: none;
+	width: 97%;
+}
+
+
